@@ -2197,3 +2197,23 @@ section {
 #footer .credits a {
   color: #a2cce3;
 }
+
+.iran_map_bar{
+  margin: auto;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe{
+  margin: auto;
+  width: 95%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px #18d26e;
+  border: none;
+  border-radius: 10px;
+}

@@ -178,3 +178,9 @@
   });
 
 })(jQuery);
+
+let login_btn = document.getElementById("login_btn"); 
+
+login_btn.addEventListener("click",()=>{
+  login_btn.style.display = "none";
+})

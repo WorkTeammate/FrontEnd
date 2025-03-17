@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link href="assets/img/favicon.png" rel="icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/login.css">
+</head>
+<body>
+
+<main>
+  <div class="container">
+    <div class="imgs">
+    <img src="./assets/img/service-details-4.jpg" alt="" id="img1">
+    <img src="./assets/img/service-details-3.jpg" alt="" id="img2">
+    <img src="./assets/img/service-details-2.jpg" alt="" id="img3">
+    <img src="./assets/img/service-details-1.jpg" alt="" id="img4">
+  </div>
+    <div class="login_bar">
+      <h2>LOGIN</h2>
+      <form action="" method="get">
+        <p>Enter your number :</p>
+        <input type="number" maxlength="12" required name="user_number" 
+        id="user_number" class="user_number_ipt" placeholder="--- --- --- ---">
+        <p>Create a username :</p>
+        <input type="text" required class="user_name_ipt" name="user_name" id="user_name">
+        <p><label><input type="checkbox" class="nick" 
+          name="user_agree" required> I agree to the terms and conditions.</label></p>
+        
+        <button type="submit" class="save_btn" id="submit_btn">Save</button>
+      </form>
+    </div>
+
+    <!-- End first section form tags -->
+    <section id="sec_two">
+      <div class="output_user_value">
+        <p>This is your number :</p>
+        <input type="text" class="user_number_output" id="user_number_output">
+        <p>This is your username :</p>
+        <input type="text" class="user_name_output" id="user_name_output">
+        <br>
+        <p class="alert">If these are not yours click the "No" button</p>
+
+        <div class="buttons">
+          <button type="button" id="go_back_btn">No</button>
+          <a href="./index.html"><button type="button" id="save_user_data_btn">Yes</button></a>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<script src="./assets/js/login.js"></script>
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
